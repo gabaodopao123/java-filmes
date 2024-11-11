@@ -1,0 +1,12 @@
+@import url("styles/header.css");
+:root{
+    --cor-de-fundo:#e71616;
+    --cor-do-texto:#443c9f;
+    --destaque: #ffffff;
+    --links: darKblue;
+}
+
+.cabecalho{
+    background-color: var(--cor-de-fundo);
+}
+
