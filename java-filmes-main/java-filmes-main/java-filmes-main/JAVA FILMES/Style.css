@@ -1,0 +1,26 @@
+@import url("styles/header.css");
+:root{
+    --cor-de-fundo:#e71616;
+    --cor-do-texto:#443c9f;
+    --destaque: #ffffff;
+    --links: darKblue;
+}
+
+.cabecalho{
+    background-color: var(--cor-de-fundo);
+}
+
+.lista-menu{
+    display:none;
+    position: absolute;
+    top: 100%;
+}
+
+.container-botao:checked~.lista-menu{
+    display:block
+}
+
+.lista-menu-titulo.lista-menu-item{
+    padding:1 em;
+    background-color: var(--cor-do-texto);
+}
